@@ -1,0 +1,60 @@
+/* header image */
+.header {
+  text-align: center;
+}
+.headerImage {
+  max-width: 30%;
+  height: auto;
+}
+
+
+
+/* navbar styling */
+ul.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  border-style: solid;
+  border-width: thin;
+  border-color: #666;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+ul.navbar li {
+  float: left;
+  margin: 0px 0px;
+  padding: 0;
+}
+
+ul.navbar li a {
+  display: block;
+  color: #444;
+  text-align: center;
+  padding: 1px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ul.navbar li a:hover {
+  background-color: #eee;
+}
+
+/* itembar styling */
+.itembar {
+  display: table;
+  margin: 0 auto;
+}
+.itembar ul{
+  text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.itembar ul li p{
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 20;
+}
